@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <div id="check-op">
+            <div class="dollar-real">
+                <input type="radio" name="op_type" id="dol-r" checked>
+                <label for="dol-r">Dollar para Real</label>
+            </div>
+            <div class="real-dollar">
+                <input type="radio" name="op_type" id="r-dol">
+                <label for="r-dol">Real para Dollar</label>
+            </div>
+        </div>
+        <div id="card">
+            <label for="val">Valor: </label>
+            <input type="number" id="val">
+        </div>
+
+        <button id="btn-convert">Converter</button>
+    </div>
+
+    <div id="res">
+        0
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
